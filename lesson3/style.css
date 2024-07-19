@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(198, 137, 180);
+}
+.container {
+    display: flex;
+}
+
+.left_side {
+    margin: 0px 0px 0px 30px;
+}
+
+.right_text {
+    margin: 14px 0px 0px 50px;
+}
+
+#fn {
+    margin-left: 50px;
+}
+
+#ln {
+    margin: 14px 0px 0px 50px;
+}
+
+.Gr {
+    margin: 14px 0px 0px 73px;
+}
+#Db {
+    margin: 14px 0px 0px 35px;
+}
+#Hp{
+    margin: 14px 0px 0px 26px;
+}
+#Ic {
+    margin: 14px 0px 0px 25px;
+}
+#Pn {
+    margin: 14px 0px 0px 56px;  
+}
+
+#Pnn {
+    margin: 14px 0px 0px 40px;
+}
+
+#Pnnn {
+    margin: 14px 0px 0px 57px;
+}
+#A {
+    margin: 20px 0px 0px 43px;
+}
+.right_side {
+    margin:  0px 0px 0px 300px;
+}
+#N2 {
+    margin: 0px 0px 0px 70px;
+}
+#Re {
+    margin: 20px 0px 0px 27px;
+}
+#Ad {
+    margin: 20px 0px 0px 55px;
+}
+#Ci {
+    margin: 20px 0px 0px 80px;
+}
+#St {
+    margin: 20px 0px 0px 75px;
+}
+#Cou {
+    margin: 20px 0px 0px 55px;
+}
+#hoP {
+    margin: 20px 0px 0px 25px;
+}
+#WP {
+    margin: 20px 0px 0px 28px;
+}
+.state {
+    width: 167px;
+}
+.country {
+    width: 167px;
+}
+
+.bottom_part {
+    display: flex;
+    background-color: rgb(222, 222, 222);
+    height: 40px;
+}
+.butt {
+    background-color: rgb(198, 137, 180);
+    height: 25px;
+    width: 100px;
+    border: none;
+    position: relative;
+    left: 500px;
+    margin: 10px;
+}
+/* ////////////////////////////////////////////// */
+/* second table */
+
+.second_wrapper {
+margin: 20px 0px 0px 50px;
+}
+
+.name2 {
+    margin: 30px 0px 0px 30px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 20px;
+}
+.last_name2 {
+    margin-left: 32px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 20px;
+}
+.Dateofb {
+    margin-left: 18px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 20px;
+}
+.email {
+    margin-left: 48px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 20px;
+}
+.Mobile {
+    margin-left: 1px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 20px;
+}
+
+.butt2 {
+    margin: 0px 0px 0px 30px;
+    background-color: rgb(190, 190, 190);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* /////////////////////////////////////////// */
+/* <<<< 4 table >>>>> */
+
+.reg_table {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 237, 237);
+}
+.first_name4 {
+    margin-left: 30px;
+}
+.Last_name2 {
+    margin-left: 32px;
+}
+.Nick {
+    margin-left: 28px;
+}
+.e-mail {
+    margin-left: 60px;
+}
+.passw {
+    margin-left: 39px;
+}
+.Data_of {
+    margin-left: 16px;
+}
+.Gen {
+    margin-left: 53px;
+}
+.Mob {
+    margin-left: 54px;
+}
+#Add {
+    margin-left: 48px;
+}
+.but_third {
+    margin-left: 20px;
+}
+.some {
+    margin-left: 40px;
+}
+
+
+/* table - 5 */
+
+.username5 {
+    margin-left: 90px;
+    width: 300px;
+}
+.pass5 {
+    margin-left: 94px;
+    width: 300px;
+}
+.city5 {
+    margin-left: 29px;
+    width: 300px;
+}
+.web5 {
+    margin-left: 85px;
+    width: 300px;
+}
+
+
+.pls5 {
+    position: relative;
+    top: 50px;
+}
+
+.abs {
+    margin-left: 162px;
+}
+.single5 {
+    white-space: pre;
+    position: relative;
+    top: 60px;
+}
+.check5 {
+    margin-left: 165px;
+    width: 300px;
+}
+.but5 {
+   margin-left: 90px;
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(244, 215, 215);
+   
+}
+
