@@ -1,0 +1,313 @@
+/* Planshet */
+body {
+    background: #FFFAF5;
+}
+@media(max-width: 1200px) {
+    .main_wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-left: 15px;
+    }
+    .book_img {
+        margin-left: 10px;
+    }
+    .navbar_books_text{
+        margin-left: -100px;
+    } 
+    .navbar_center_text {
+        display: none;
+    }
+    .drop_down {
+        margin-left: 10px;
+    }
+    .search_wrapper {
+        display: flex;
+        position: relative;
+        right: 40px;
+    }
+    .right_side_navbar {
+        position: relative;
+        right: 60px;
+    }
+    .number_s {
+        width: 65px;
+    }
+     
+    /*center_side starting */
+
+    .center_about_book {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .center_left_side {
+        margin-top: 100px;
+    }
+    .all_about_book {
+        margin-left: -60px;
+    }
+    .text_head {
+        display: none;
+    }
+    .wrap_for_phone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 800px;
+        position: relative;
+        right: 230px;
+    }
+    .for_phone {
+       white-space: pre;
+    }
+    .for_phone {
+        margin-left: -60px;
+    }
+    .center_right_side {
+        margin-top: 150px;
+        position: relative;
+        right: 100px;
+    }
+
+    /* <!-- center_side ending --> */
+
+    /* <!-- simple_of_books side starting --> */
+   
+   .other_texts {
+    margin-left: -10px;
+  }
+  .simple_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hot {
+   font-size: 20px;
+   width: 310px;
+  }
+  .left_side_arrow {
+   display: none;
+  }
+  .simple_boxes_wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .other_texts {
+    gap: 25px;
+  }
+  .right_side_arrow {
+   display: none;
+  }
+  .sale_top {
+   font-size: 25px;
+  }
+  .simple_boxes_wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .boxes_in_four {
+   display: none;
+  }
+  .boxes_in_five {
+   display: none;
+  }
+
+  /* <!-- simple_of_books side ending --> */
+
+  /* <!-- catalog_part starting --> */
+.catalog_wrap {
+    position: relative;
+    right: 20px;
+}
+.father_wrap {
+    padding-left: 90px;
+}
+
+/* <!-- catalog_part ending --> */
+
+/* <!-- about_store ending --> */
+
+.store_center_text {
+    display: flex;
+}
+.num_main_wrap {
+    display: none;
+}
+.for_phone_add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    margin-top: 50px;
+}
+.inside_text {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    width: 750px;
+}
+.text_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num_in {
+   font-size: 40px;
+   font-weight: 900;
+}
+.num_text {
+    margin-left: 30px;
+}
+.inside_text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 215px;
+    width: 750px;
+}
+.delivery_wrap {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 90%;
+}
+.delivery_r {
+    font-size: 14px;
+}
+
+/* <!-- bottom_navbar starting --> */
+
+.sns_wrap {
+    padding-left: 50px;
+}
+.main_wrap_delivery {
+    margin-left: 0px;
+}
+.main_icons_wrapper {
+    display: none;
+}
+.icons_for_phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.wrapper_icons_ph {
+    display: flex;
+    gap: 27px;
+    margin-top: 30px;
+}
+.bottom_navbar_wrapper {
+    background-color: #391F00;
+    width: 100%;
+    height: 306px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.top_nav {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   
+}   
+.nav_book {
+    position: relative;
+    left: -80px;
+}
+.tex_nav_wrap {
+    position: relative;
+    left: -70px;
+}
+.text_nav {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.text_nav2 {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 196.187%;
+}
+.text_center {
+   display: flex;
+   gap: 25px;
+}
+.text_white {
+    color: var(--Gray-6, #F2F2F2);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 196.187%;
+}
+.phone_num_wrap {
+    position: relative;
+    left: 80px;
+}
+.phone_num_text {
+     color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 196.187%; 
+}
+.butt_phone {
+    color: var(--2, #E16A00);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 196.187%; 
+    width: 120px;
+    height: 26px;
+    flex-shrink: 0;
+    background-color: #391F00;
+    border-color: #E16A00;
+}
+.bottom_texts_wrapper {
+    display: flex;
+    column-gap: 180px;
+    margin-left: 20px;
+
+}
+.first_side_text {
+   margin-top: 35px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.text_style2 {
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+}
+.text_style {
+    color: white;
+    font-size: 17px;
+}
+.last_text_wrapper {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.all_about_it {
+    color: white;
+    white-space: pre;
+    font-size: 12px;
+}
+/* <!-- bottom_navbar ending --> */
+}
