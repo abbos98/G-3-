@@ -97,7 +97,3 @@
 // 15) 36 sonini ildiz ostida ciqarib va unga 10 sonini qoshib qoysak nechi boladi?
 
 
-
-
-
-
