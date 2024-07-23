@@ -2,14 +2,14 @@
 
 // console.log(str.indexOf("coder")); 
 
-// console.log(str.search("A"));
+// console.log(str.search("B"));
 
 // console.log(str.slice(3, -1));          //slice(minusda ham ishora oladi!)
 // console.log(str.slice(0, 4));
 
-// console.log(str.substring(3, -1));   //substring minusda qiymat olmaydi)
+// console.log(str.substring(3, 10));   //substring minusda qiymat olmaydi)
 
-// console.log(str.substr(3, 10));     // 3dan 10gacha sanab beradi
+// console.log(str.substr(3, 5));     // 3dan 10gacha sanab beradi
 
 
 
@@ -18,9 +18,9 @@
 // let str = 'Abbos Bek Bek Bek';
 
 
-// console.log(str.replace(/bek/i, 'jon'));          //  /bek/i  belgisini qoysak kichkina harif bolsa ham almawtirib beradi!
+// console.log(str.replace(/bek/,'jon'));          //  /bek/i  belgisini qoysak kichkina harif bolsa ham almawtirib beradi!
 
-// console.log(str.replace(/bek/g, 'jon'));          //    /bek/g belgisi hamma bir xil bolgan qiymatni alishtirib beradi!
+// console.log(str.replace(/Bek/g, 'jon'));          //    /bek/g belgisi hamma bir xil bolgan qiymatni alishtirib beradi!
 
 // console.log(str.replace(/bek/gi, 'jon'));            //   /bek/gi belgisi katto yoki kichkina harf bolsa ham alishtirib beradi
 
