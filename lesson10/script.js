@@ -12,9 +12,6 @@
 // console.log(str.substr(3, 5));     // 3dan 10gacha sanab beradi
 
 
-
-
-
 // let str = 'Abbos Bek Bek Bek';
 
 
@@ -24,7 +21,7 @@
 
 // console.log(str.replace(/bek/gi, 'jon'));            //   /bek/gi belgisi katto yoki kichkina harf bolsa ham alishtirib beradi
 
-
+// console.log(str.replace(/bek/gi, 'jon'));
 
 // let str = 'Abbos';
 
@@ -334,4 +331,148 @@
 
 
 
+// 5.Function checkLeapYear() find if the given year is a leap year or not by using %, !=, && and || operators in JavaScript.
 
+//  1 If year is divisble by 4 and not divisble by 100 then print “leap year”.
+//  2 Or if year is divisible by 400 then print “leap year”.
+//  3 Else print “not a leap year”.
+
+// Kabisa yili (4-yilda 1 marta keladi);
+
+
+// function kabisa() {
+
+
+//     let yil = 2024;
+    
+//     if(yil % 4 === 0) {
+//         console.log('kabisa yili!');
+//     } else if( yil % 4 !== 0) {
+//         console.log('kabisa yili emas!');
+//     }
+
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// <<<<<<<< String methods >>>>>>>> //
+
+
+//toLowerCase();  =>hammasini kichkina harfga otqazib beradi!
+
+// let word = 'YasminaxoN';
+
+// console.log(word.toLowerCase());
+
+
+
+//toUpperCase(); =>hammasini kotta harfga otqazib beradi!
+
+// let word = 'Yasminaxon';
+
+// console.log(word.toUpperCase());
+
+
+
+//trim(); =>white spacelarni yoqotib beradi!
+
+// let word = 'Abbos    ';   
+
+// console.log(word.trim().length);
+
+
+
+// startsWith('A'); =>berilgan qiymatning boshi shu harfadan boshlangan yoki boshlanmaganini korsatadi boolean holatda!
+
+// let name = 'Abbos';
+
+// console.log(name.startsWith('A'));
+
+
+
+// endsWith('S'); =>berilgan qiymatning oxiri shu harfadan boshlangan yoki boshlanmaganini korsatadi boolean holatda!
+
+// let name = "Abbos";
+
+// console.log(name.endsWith("s"));
+
+
+
+// padStart(10, 'a');  => ozgaruvchining boshiga belgilanga boyicha harf qoshish imkonini beradi!
+
+// let title = 'Webbrain';
+
+// console.log(title.padStart(10, 'a'));
+
+
+
+//padEnd(10, a); => ozgaruvchining boshiga belgilanga boyicha harf qoshish imkonini beradi!
+
+
+// let title = 'brain';
+
+// console.log(title.padEnd(10, 'a'));
+
+
+//replace(from, to); => qiymatni ozgartirish imkonini beradi!
+
+// let name = 'Axrorbek';
+
+// console.log(name.replace('bek', 'jon'));
+
+
+//repeat(5); => qiymatni belgilangan miqdorda qayta qayta chiqarib beradi
+
+
+// let name = 'Yasmina';
+
+// console.log(name.repeat(5));
+
+
+
+//concat(); => 2ta ozgaruvchini bir biriga qoshib beradi
+
+// let surname = 'Begmatov';
+// let givenname = 'Abbos';
+
+
+// console.log(surname.concat(givenname));
+
+
+
+// includes('a'); => berilgan qiymatni bor yoki yoqligini boolean holatda qaytaradi!
+
+// let name = 'Abbos';
+
+// console.log(name.includes('Ab'));
+
+
+
+//indexOf(); berilgan harf qaysi indexda joylashganini korsatadi!
+
+// let name = 'Yasminaxon';
+
+// console.log(name.indexOf('s'));
+
+
+
+//lastIndexOf(); bir xil harf ketma ket kelsa shu holatda 2-bolgan harfni olib beradi va indexni korsatadi!
+
+// let name = 'Abbos';
+
+// console.log(name.lastIndexOf('b'));
+
+
+//charAt(); berilgan indexni harfini ifoda etadi!
+
+// let name = 'Yasmina';
+
+// console.log(name.charAt(2));
+
+
+
+//substring(0, 4); => berilgan orgaruvchini cut qilib beradi!
+
+// let name = 'Abbos';
+
+// console.log(name.substring(0,3));
