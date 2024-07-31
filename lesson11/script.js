@@ -30,7 +30,7 @@
 // <<< task 2 >>>
 // Kabisa yili! (Leapyear!)
 
-// let year = 2024;
+// let year = 2020;
 
 // if(year % 4 === 0) {
 //     console.log('Kabisa yili');
@@ -55,59 +55,46 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 // <<< task 4 >>>
-// Uchburchaklar tengligini toping!
+// Function findTriangleType() finds the type of the triangle for given side values by using “==” and “&&” operator in JavaScript.
+//  1 Print “Equilateral triangle.” if values for all side1, side2 and side3 are equal.
+//  2 Print “Isosceles triangle.” if values for side1 is equal to side2 or side2 is equal to side3
+//  3 Else “Scalene triangle.” since values of all sides are unequal.
 
-
-// function findTriangle(a, b, d) {
-//   if(a == b && b == d ) {
-//     console.log('Teng tomonlik uchburchak!');
-//   } else if (a == b || b == d) {
-//     console.log('Teng bolmagan uchburchak!');
-//   } else {
-//     console.log('umuman teng bolmagan uchburchak!');
-//   }
+// function checkMe(a, b, c) {
+//     if(a == b && b == c) {
+//       return `Equilateral triangle`
+//     } else if (a == b || b == c) {
+//       return `Isosceles triangle`
+//     } else {
+//       return `Scalene triangle`
+//     } 
 // }
-// findTriangle(10, 10, 10);
-// findTriangle(10, 10, 15);
-// findTriangle(10, 15, 20);
+// console.log(checkMe(2, 2, 2));
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // <<< task 5 >>>
-// Oylarni kunini topish!
+// Function findDaysInMonth() finds the number of days in a given month of a year.
 
-// function findDays(month) {
-//     if(month == 1) {
-//         console.log('31 kunlik oy');
-//     } else if (month == 2) {
-//         console.log('29 kunlik oy');
-//     } else if(month == 3) {
-//         console.log('31 kunlik oy');
-//     } else if ( month == 4) {
-//         console.log('30 kunlik oy');
-//     } else if (month == 5) {
-//         console.log('31kunlik oy');
-//     } else if (month == 6) {
-//         console.log('30 kunlik oy');
-//     } else if (month == 7) {
-//         console.log('31 kunlik oy');
-//     } else if (month == 8) {
-//         console.log('31 kunlik oy');
-//     } else if (month == 9) {
-//         console.log('30 kunlik oy');
-//     } else if (month == 10) {
-//         console.log('31 kunlik oy');
-//     } else if (month == 11) {
-//         console.log('30 kunlik oy');
-//     } else if (month == 12) {
-//         console.log('31 kunlik oy');
+// If month is outside the range of 1 and 12 print “Invalid month”.
+// If month is equal to 2 ie, February print “29 days” if leap year else print “28 days” .
+// Else if month is equal to 4, 6, 9 or 11 print “30 days”.
+// Else print “31 days”.
+
+// function clickHand(month, year) {
+//     if(month === 4 || month === 6 || month === 9 || month === 11) {
+//         console.log('31 days');
+//     } else if (month === 1 || month === 3 || month === 5 || month === 7 || month === 8 || month === 10 || month === 12) {
+//         console.log('30 days');
+//     } else if (month === 2 && year % 4 === 0) {
+//         console.log('28 days');
+//     } else if (month === 2 && year % 4 !== 0) {
+//         console.log('leap-year 29-days');
 //     } else {
-//         console.log('Bunday oyning ozi yoq!');
+//         console.log('check again something gone wrong!');
 //     }
 // }
-
-// findDays(11);
-
+// clickHand(2,2023)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -120,13 +107,39 @@
 // } else if(b > d) {
 //     console.log('B is the largest');
 // } else {
-//     console.log('last one is the largest');
+//     console.log('C is the largest');
+//  }
 // }
-
-// }
-// // num(10, 5, 2);
+// num(10, 1, 20);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Function evalNumbers() prints the result after evaluating arithmetic operations between two numbers of addition, multiplication, division, and modulus in JavaScript.
+
+//  1 Print result of num1+num2 if operation is “add”
+//  2 Print result of num1-num2 if operation is “subtract”
+//  3 Print result of num1*num2 if operation is “multiply”
+//  4 Print result of num1/num2 if operation is “divide”
+//  5 Print result of num1%num2 if operation is “modulus”
+//  6 Else print “Invalid operation”
+
+// function clickMe(num1, num2, operation) {
+//     if(operation == 'add') {
+//         console.log(num1 + num2);
+//     } else if(operation == 'subtract') {
+//         console.log(num1 - num2);
+//     } else if(operation == 'multiply') {
+//         console.log(num1 * num2);
+//     } else if(operation == 'divide') {
+//         console.log(num1 / num2);
+//     } else if(operation == 'modules') {
+//         console.log(num1 % num2);
+//     }
+// }
+
+// clickMe(2, 2, 'subtract')
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 10 penalty
 
@@ -219,3 +232,14 @@
 // let name = 'Axrorbek';
 
 // console.log(name.charAt(2));
+
+
+// nasted loop
+
+// for (let i = 0; i <= 3; i++) {
+//     console.log('------outside');
+
+//     for(let j = 0; j <= 3; j++) {
+//         console.log('----Inside');
+//     }
+// }
